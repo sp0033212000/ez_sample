@@ -1,0 +1,58 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "allowJs": false,
+        "skipLibCheck": false,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react",
+        "baseUrl": "./",
+        "paths": {
+            "@components/*": [
+                "./src/components/*"
+            ],
+            "@data/*": [
+                "./src/data/*"
+            ],
+            "@types/*": [
+                "./src/types/*"
+            ],
+            "@utils/*": [
+                "./src/utils/*"
+            ],
+            "@General/*": [
+                "./src/Components/General/*"
+            ],
+            "@feature/*": [
+                "./src/components/feature/*"
+            ],
+            "@/*": [
+                "./src/*"
+            ],
+            "@helper/*": [
+                "./src/helper/*"
+            ],
+            "@Components/*": [
+                "./src/Components/*"
+            ],
+            "@Feature/*": [
+                "./src/Components/Feature/*"
+            ]
+        }
+    },
+    "include": [
+        "./src"
+    ]
+}

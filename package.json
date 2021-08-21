@@ -1,9 +1,11 @@
 {
   "version": "0.0.0",
+  "homepage": "https://sp0033212000.github.io/ez_sample/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "classnames": "^2.3.1",
@@ -17,6 +19,7 @@
     "@types/react-dom": "^17.0.0",
     "@types/tailwindcss": "^2.2.1",
     "@vitejs/plugin-react-refresh": "^1.3.1",
+    "gh-pages": "^3.2.3",
     "typescript": "^4.3.2",
     "vitawind": "^1.2.7",
     "vite": "^2.4.4",
